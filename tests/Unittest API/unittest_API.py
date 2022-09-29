@@ -17,7 +17,7 @@ class TestFunction(unittest.TestCase):
         [
             ('200'),
             ('201'),
-            ('401'),
+            ('409'),
         ]
     )
     def test_get_my_files_name(self, etalon):
