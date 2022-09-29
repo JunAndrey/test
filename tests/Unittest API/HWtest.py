@@ -29,6 +29,5 @@ class YaDisk:
 if __name__ == "__main__":
     token = password_1
     ya = YaDisk(token)
-    # ya.get_headers()
     ya.get_my_files_name()
     ya.create_folder(path='New_Folder')
